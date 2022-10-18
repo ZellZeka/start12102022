@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <header>
+        <h1>Домашнє завдання 2</h1>
+        <nav>
+            <a href="#">Форми</a>
+            <a href="#">Таблиці</a>
+            <a href="#">Списки</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form action="">
+                <div>
+                    <input value="BUY" type="button">
+                </div>
+                <div>
+                    <label for="options">
+                        Обрати варіант
+                    </label>
+                    <input id="options" type="checkbox">
+                </div>
+                <div>
+                    <label for="bestcolor">
+                        Обрати колір
+                    </label>
+                    <input id="bestcolor" type="color">
+                </div>
+                <div>
+                    <label 
+                    for="birthday">Дата народження:
+                    </label>
+                    <input type="date" id="birthday" name="birthday">
+                    <input type="submit" value="Submit">
+                </div>
+                <div>
+                    <label 
+                    for="birthdaytime">Дата та час народження:
+                    </label>
+                    <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+                    <input type="submit" value="Submit">
+                </div>
+                <div>
+                    <label for="email">
+                        Ввести імейл:
+                    </label>
+                    <input type="email" id="email" name="email">
+                    <input type="submit" value="Submit">
+                </div>
+                <div>
+                    <label for="myfile">
+                        Обрати файл:
+                    </label>
+                    <input type="file" id="myfile" name="myfile">
+                    <br>
+                    <input type="submit" value="Submit">
+                </div>
+                <div>
+                    <label for="fname">
+                        Ім'я:
+                    </label>
+                    <input type="text" id="fname" name="fname">
+                    <br>
+                    <input type="hidden" id="custId" name="custId" value="3487">
+                    <input type="submit" value="Submit">
+                </div>
+                <div>
+                    <label for="start">
+                        Почати:
+                    </label>
+                    <input type="image" id="start" src="https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/f92e5b88258ee5e.png" alt="Submit" width="90" height="50">
+                </div>
+                <div>
+                    <label for="bdaymonth">Місяць та рік народження:</label>
+                    <input type="month" id="bdaymonth" name="bdaymonth">
+                    <input type="submit" value="Submit">
+                </div>
+                <div>
+                    <label for="quantity">
+                        Ввести кількість (між 1 та 10):
+                    </label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="10">
+                    <input type="submit" value="Submit">
+                </div>
+                <div>
+                    <label for="password">
+                        Ввести пароль:
+                    </label>
+                    <input type="password" id="password">
+                </div>
+                <div>
+                      <input type="radio" id="html" name="fav_language" value="HTML">
+                      <label for="html">HTML</label><br>
+                      <input type="radio" id="css" name="fav_language" value="CSS">
+                      <label for="css">CSS</label><br>
+                      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                      <label for="javascript">JavaScript</label><br><br>
+                </div>
+                <div>
+                    <label for="vol">Гучність (між 1 та 50):</label>
+                    <input type="range" id="vol" name="vol" min="0" max="50">
+                </div>
+                <div>
+                    <label for="name">Ім'я:</label><br>
+                    <input type="text" id="name" name="name" value="Євген"><br><br>
+                    <input type="reset">
+                </div>
+                <div>
+                    <label for="gsearch">Шукати в Google:</label>
+                    <input type="search" id="gsearch" name="gsearch">
+                    <input type="submit" value="Submit">
+                </div>
+                <div>
+                    <label for="name">Ім'я:</label><br>
+                    <input type="text" id="name" name="name" value="Євген"><br><br>
+                    <input type="submit" value="Submit">
+                </div>
+                <div>
+                    <label for="phone">Ввести номер телефона:</label><br><br>
+                    <input type="tel" id="phone" name="phone" placeholder="123-45-67" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}" required><br><br>
+                    <small>Format: 123-45-67</small><br><br>
+                    <input type="submit" value="Submit">
+                </div>
+                <div>
+                    <label for="name">Ім'я:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                </div>
+                <div>
+                    <label for="appt">Обрати час:</label>
+                    <input type="time" id="appt" name="appt">
+                </div>
+                <div>
+                    <label for="homepage">Додати свою домашню сторінку</label>
+                    <input type="url" id="homepage" name="homepage">
+                    <input type="submit" value="Submit">
+                </div>
+                <div>
+                    <label for="week">Обрати тиждень:</label>
+                    <input type="week" id="week" name="week">
+                </div>                 
+            </form>
+        </section>
+        <section>
+            <h3>Таблиці</h3>
+            <table border="4" style="width: 100%">
+                <thead>
+                    <tr>
+                        <th>
+                        Студент
+                        </th>
+                        <th>
+                        Статус виконання домашньої роботи    
+                        </th>
+                        <th>  
+                        Курс
+                        </th>
+                    </tr>      
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Іванов
+                        </td>
+                        <td>
+                            Виконано
+                        </td>
+                        <td rowspan="2">
+                            Другий
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Шевченко
+                        </td>
+                        <td>
+                            Невиконано
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Петренко
+                        </td>
+                        <td>
+                            Виконано
+                        </td>
+                        <td>
+                            Третій
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Коваленко
+                        </td>
+                        <td>
+                            Невиконано
+                        </td>
+                        <td rowspan="2">
+                            Перший
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Руденко
+                        </td>
+                        <td>
+                            Виконано
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+    </main>
+    <section>
+        <h3>Ненумерований список</h3>
+        <ul>
+            <li>Апельсин</li>
+            <li>Яблуко</li>
+            <li>Томат</li>
+        </ul>
+    </section>
+    <section>
+        <h3>Нумерований список</h3>
+        <ol type="a">
+            <li>
+                <a href="#">site1</a>
+            </li>
+            <li>
+                <a href="#">site2</a>
+            </li>
+            <li>
+                <a href="#">site3</a>
+            </li>
+        </ol>
+    </section>
+    <footer>
+        Block
+    </footer>       
+</body>
+</html>
