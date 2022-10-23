@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    font-family: 'Roboto', sans-serif;
+    
+}
+main,
+footer{
+    text-align: center;
+}
+header,
+.section3{
+    background-color: #fff;
+}
+header{
+    padding: 18px 0 23px;
+}
+
+.wrapper_h,
+.wrapper1,
+.wrapper2,
+.wrapper3,
+.wrapper4{
+    width: 940px;
+    margin: 0 auto;
+    
+}
+.wrapper_h{
+    text-align: right;
+}
+
+.logo,
+.links
+{
+    width: 465px;
+    display: inline-block; 
+    vertical-align: middle;   
+}
+
+
+.logo{
+    text-align: left;
+    
+}
+.facebook,
+.twitter{
+    width: auto; 
+    display: inline-block; 
+}
+.facebook{
+    margin-right: 15px;
+}
+.section1,
+.section4{
+    background-color: #fac960;
+}
+footer,
+.section2{
+    background-color: #f2f2f2;
+}
+.section1{
+     height: 420px;
+     padding-top: 84px;
+}
+.section2{
+    padding-bottom: 80px;
+}
+.section3{
+    padding-bottom: 15px;
+}
+form{
+    font-size: 30px;
+    line-height: 54px;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    font-size: 40px;
+    line-height: 54px;
+    color: #8a6d2f;
+    font-weight: 400;
+    font-style: normal;
+}
+input[type=email]{
+    width: 560px;
+    height: 55px;
+    padding-left: 36px;
+}
+#invite{
+    background: #a8863d;
+    
+    color: #fff;
+    border-color: #a8863d;
+    box-shadow: none;
+    width: 239px;
+    height: 55px;
+}
+::placeholder {
+    color: #999;
+    
+}
+h2{
+    padding-top: 80px;
+    margin: 0;
+    font-size: 37px;
+    line-height: 36px;
+    color:rgba(0, 0, 0, 0.56);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.share{
+    padding-top: 54px;
+    color: #8a6d2f;
+}
+p{
+    margin-bottom: 55px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.first{
+    margin-bottom: 55px;
+}
+.second{
+    margin-bottom: 30px;
+}
+button{
+    margin: 13px auto 107px;
+    width: 61px;
+    
+}
+.facebook2,
+.twitter2,
+.email{
+    display: inline-block;
+    margin: 0 10px;
+
+}
+footer{
+    padding-top: 81px;
+    padding-bottom: 80px;
+}
+.logo2{
+    padding-bottom: 24px;
+}
