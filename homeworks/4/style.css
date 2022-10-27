@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E5E5E5;
+    margin: 0 auto;
+}
+.wrapper{
+    width:1500px;
+    margin: 100px auto auto;
+}
+.diya,
+.square-flag,
+.round-flag
+{
+    width: 512px;
+    height: 512px;
+    position: relative;
+}
+.diya-logo,
+.small-flag,
+.gliph,
+.small-gliph{
+    position: absolute;
+}
+
+.diya{
+    
+    background-color: black;
+    
+}
+.square-flag{
+
+    margin-left: 442px;
+    margin-top: -117px;
+    background-color: #ffce22;
+    z-index: 1;
+    
+}
+
+.round-flag{
+    margin-left: 859px;
+    margin-top: -90px;
+    background-color: white;
+    border-width: 2px 0px;
+    border-style: solid;
+    border-color: #2137fc;
+    padding: 34px;
+}
+
+.diya-logo{
+    display: block;
+    width: 310px;
+    height: 182px;
+    top: 129px;
+    left: 101px;
+}
+.small-flag{
+    display: block;
+    bottom: 109px;
+    left: 216px;
+}
+.gliph{
+    top:51%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.small-gliph{
+    top: 249px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.round-border{
+    background-color: #ffce22;
+    border-radius: 100%;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+} 
+.background{
+    background-image: url("images/Blue.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 54%;
+}  
