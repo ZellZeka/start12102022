@@ -30,6 +30,7 @@ header{
     position: sticky;
     top: 0;
     padding: 16px 12px;
+    background-color: #fff;
 }
 
 .navigation
@@ -104,7 +105,7 @@ h4{
     margin-top: 24px;
     outline-style: none;
     background-color: #0062FF;
-    border-color: #0062FF;
+    border:1px solid #0062FF;
 }
 .autors-button:hover{
     background-color: #2a7cff;
