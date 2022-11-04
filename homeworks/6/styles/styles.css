@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.wrapper{
+    width: 85%;
+    margin: 0 auto;
+}
+body,
+html{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;
+}
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+   flex-wrap: wrap;
+   padding-top: 48px; 
+}
+
+.logo,
+nav:first-child{
+    color: #BC436A;
+}
+.logo{
+    width: 39%;
+    font-size: 18px;
+    font-weight: 700;
+}
+.menue{
+    color: #776677;
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+    width: 61%;
+}
+
+nav a{
+    text-decoration: none;
+    outline-style: none; 
+    color: #776677; 
+    margin-right: 40px;
+    font-size: 16px;
+    vertical-align: middle;
+
+  }
+.home{
+    font-weight: 800;
+    color: #BC436A;
+}
+.guide{
+    padding: 8px;
+    background-color: #386E41;
+    border-radius: 4px;
+    border: #386E41 1px solid;
+    color: #fff;
+}
+.guide:hover{
+    background-color: #16451e;
+    border: #16451e 1px solid;
+}
+main{
+    padding-top: 36px;
+    
+}
+.offer{
+   display: flex; 
+   justify-content: space-between;
+   z-index: 5;
+}
+h1{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    font-style: normal;
+}
+
+span{
+    color: #BC436A;
+}
+.offer-image{
+    background-image: url("../img/Image.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 812px;
+    height: 812px;
+}
+.offer-description{
+    width: 40%;
+    margin-top: 162px;
+    position: relative;
+}
+p{
+    color: #7A7A7A;
+}
+.square-container{
+    position: relative;
+    margin-top: 54px;
+}
+.square{
+    border: 10px solid #386E41;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 41%;
+    left: -25%;
+    
+}
+.form-header{
+    margin: 176px 0 33px;
+    
+}
+.form-header::after{
+    content: url("../img/chevron-right.png");
+    position: absolute;
+    left: 200px;
+    top: 0;
+
+}   
+.form-header{
+    position: relative;
+}
+.form{
+    width: 230%;
+    padding: 34px;
+    position: absolute;
+    bottom: 3%;
+    background: #386e41;
+    border-radius: 8px;
+}
+.form>div{
+    color: #fff;
+}
+.item-container{
+    display: inline-block;
+    width: 28%;
+}
+.input{
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background-color: #386E41;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+.item-container::after{
+    content: url("../img/chevron-down.png");
+    position: relative;
+    top: 7px;
+    right: 37px;
+}
+.search{
+    
+    position: absolute;
+    background: #BC436A;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 21px;
+    border: #BC436A solid 1px;
+}
+.search:hover{
+    background: #861c3d;
+
+}
+.scroll{
+    margin: 50px 0;
+}
+.scroll::after{
+    content: url("../img/chevrons-down.png");
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+.scroll>p{
+    text-align: center;
+}
