@@ -89,8 +89,8 @@ span{
     background-image: url("../img/Image.png");
     background-repeat: no-repeat;
     background-position: right;
-    width: 812px;
-    height: 812px;
+    /* width: 812px;
+    height: 812px; */
 }
 .offer-description{
     width: 40%;
@@ -131,7 +131,7 @@ p{
     width: 230%;
     padding: 34px;
     position: absolute;
-    bottom: 3%;
+    bottom: -16%;
     background: #386e41;
     border-radius: 8px;
 }
