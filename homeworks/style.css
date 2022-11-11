@@ -25,7 +25,6 @@ li{
     background-size:cover;
     /* min-width: 1140px; */
     height: 1788px;
-    width: 100%;
 }
 
 .primary-wrapper{
@@ -105,11 +104,10 @@ li{
     color: #fff;
 }
 .search{
-    width: 134px;
+    width: 10%;
 }
 .input-search{
     text-align: right;
-    width:58%
 }
 .button-search,
 .input-search,
@@ -208,19 +206,15 @@ h2{
 .read-more:hover{
     font-size: larger;
 }
-.east-nusa{
-    justify-content: space-between;
-}    
 .east-nusa-picture{
     margin-right: 16%;
-    width: 70%;
 }
 .east-nusa-text,
 .culture-text{
     align-self: center;
 }
 .east-nusa-text{
-    width: 30%;
+    padding-right: 100px;
 }
 .stylized-header,
 .east-nusa-offer,
@@ -445,100 +439,37 @@ section{
     .search{
         margin-left: 55%;
         scale: 1.4;
-        margin-right: 99px;
-        padding-top: 12px;
-    }
-    .stylized-header,
-    .bromo-header{
-        text-transform: uppercase;
-        letter-spacing: 6px;
-        margin-left: 0;
-    }
-    .stylized-header::before,
-    .bromo-header::before,
-    .bromo-header::after{
-        display: none;
-    }
     }
     .east-nusa,
     .culture{
         display: block;
     }
-    .east-nusa-offer,
-    .bromo-offer,
-    .culture-offer,
-    h1{
-        font-size: 45px;
+    .stylized-header,
+    .east-nusa-description,
+    .bromo-header,
+    .description-wrapper,
+    .stylized-header,
+    .culture-description{
+        font-size: 30px;
+        line-height: 48px;
     }
-
-    h1 span{
-        font-size: 52px;
-    }
-    .footer-menue{
-        width: 100%;
-        margin-top: 100px;
-    }
-    .subscribe{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .culture-text,
-    .east-nusa-text{
+    .culture-text{
         width: 100%;
     }
-
+}
 @media(min-width:901px){
     .gamburger{
         display: none;
-
     }
 }
 @media(max-width:400px){
     .search{
-        scale: 1.4;
-        margin-left: 36%;
-        padding-top: 0;
-        margin-right: 28px;
+        scale: 1.9;
+        margin-left: 45%;
     }
     .gamburger{
-        scale:1.4;
+        scale:1.7;
         right: -126px;
         top: -25px;
-    }
-    .input-search{
-        text-align: left;
-        width: 100%;
-        margin-right: 40px;
-        padding-top: 2px;
-    }
-    .social{
-        margin-right: 20%;
-    }
-    section{
-        margin-bottom: 0;
-    }
-    .east-nusa-picture>img,
-    .culture-picture>img{
-        width: 100%;
-    }
-    .footer-logo-container,
-    .call-to-action,
-    .subscribe,
-    .privat-policy{
-        display: block;
-    }
-    .footer-menue{
-        display: none;
-    }
-    .subscribe-form > form,
-    .pp-column,
-    .footer-social{
-        width: 100%;
-    }
-    .footer-social{
-        margin-top: 20px;
-    }
-    .footer-subscribe{
-        width: 70%;
     }
 }
