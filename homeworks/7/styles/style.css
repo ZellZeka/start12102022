@@ -7,6 +7,7 @@ body,
 html{
     font-family: 'Open Sans', sans-serif;
     color: #fff;
+    width: 100%;
 }
 body{
     background-color: black;
@@ -23,9 +24,8 @@ li{
 .background-wrapper{
     background-image: url("../img/Background.png");
     background-size:cover;
-    /* min-width: 1140px; */
     height: 1788px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .primary-wrapper{
@@ -36,7 +36,7 @@ li{
 .header-container{
     justify-content: space-between;
     padding-top: 64px;
-    /* position: relative; */
+    position: relative;
 }
 .navigation,
 .navigation:active{
@@ -76,7 +76,7 @@ li{
     height: 50px;
     border: 3px solid #000;
     border-radius: 50%;
-    /* position: relative; */
+    position: relative;
     right: -51px;
     top: -13px;
 }
@@ -96,7 +96,7 @@ li{
 }
 .offer{
     width: 54%;
-    /* justify-self: center; */
+    justify-self: center;
     
 }
 .input-search::placeholder{
@@ -131,7 +131,7 @@ li{
 }
 .social{
     writing-mode: vertical-rl;
-    margin-right: 33%;
+    padding-right: 33%;
     align-self: flex-end;
 }
 .icon{
@@ -184,9 +184,7 @@ h1 span{
     width: 76%;
     margin: 0 auto;
 }
-h2{
-    font-size: 100%;
-}
+
 .east-nusa-offer,
 .bromo-offer,
 .culture-offer{
@@ -212,8 +210,11 @@ h2{
     justify-content: space-between;
 }    
 .east-nusa-picture{
-    margin-right: 16%;
+    padding-right: 16%;
     width: 70%;
+}
+.east-nusa-picture>img{
+    width: 100%;
 }
 .east-nusa-text,
 .culture-text{
@@ -232,6 +233,9 @@ h2{
 .east-nusa-description,
 .culture-description{
     line-height: 32px;
+}
+.culture-picture>img{
+    width: 100%;
 }
 section{
     margin-bottom: 250px;    
@@ -283,7 +287,7 @@ section{
     right:-100px;
 }
 .header-wrapper{
-    width: 94px;
+    width: 130px;
     margin-left: 50%;
     transform: translateX(-50%);
 }
@@ -301,7 +305,7 @@ section{
 }
 .culture-text{
     width: 43%;
-    padding-left: 3;
+    padding-left: 3%;
 }
 .footer-logo-container{
     justify-content: space-between;
@@ -319,7 +323,7 @@ section{
     align-self: center;
 }
 .call-to-action-text{
-    margin-right: 55px;
+    padding-right: 55px;
     font-weight: 400;
     font-size: 22px;
     line-height: 29px;
@@ -343,12 +347,16 @@ section{
 }
 .subscribe{
     padding-top: 55px;
+    justify-content: space-between;
 }
 .subscribe-form{
     font-weight: 700;
     font-size: 36px;
     line-height: 49px;
     letter-spacing: -0.3px;
+    width: 65%;
+    padding-right: 20%;
+    
 }
 .footer-menue{
     width: 70%;
@@ -361,7 +369,8 @@ section{
 }
 
 .subscribe-form>form{
-    width: 400px;
+    width: 100%;
+    padding-top: 50px;
 }
 .footer-subscribe::placeholder{
     font-weight: 400;
@@ -375,7 +384,7 @@ section{
     background: transparent;
     border-bottom: 1px solid gray;
     padding: 15px;
-    width: 317px;
+    width: 50%;
     
 }
 .footer-arrow{
@@ -416,7 +425,7 @@ section{
     justify-content: end;
 }
 .pp-column a{
-    margin-right: 90px;
+    padding-right: 90px;
     color: #fff;
     font-style: normal;
     font-weight: 400;
@@ -424,7 +433,7 @@ section{
     line-height: 20px;
 }
 .footer-social a{
-    margin-left: 51px;
+    padding-left: 51px;
     color: #fff;
 }
 .copyright{
@@ -435,7 +444,7 @@ section{
     opacity: 0.5;
     padding-bottom: 115px;
 }
-@media(max-width:900px){
+@media (max-width:900px){
     nav{
         display: none;
     }
@@ -443,9 +452,9 @@ section{
         justify-content: flex-start;
     }
     .search{
-        margin-left: 55%;
+        padding-left: 55%;
         scale: 1.4;
-        margin-right: 99px;
+        padding-right: 99px;
         padding-top: 12px;
     }
     .stylized-header,
@@ -459,9 +468,9 @@ section{
     .bromo-header::after{
         display: none;
     }
-    }
     .east-nusa,
-    .culture{
+    .culture,
+    .footer-logo-container{
         display: block;
     }
     .east-nusa-offer,
@@ -487,23 +496,25 @@ section{
         width: 100%;
     }
 
-@media(min-width:901px){
+}
+@media (min-width:901px){
     .gamburger{
         display: none;
-
     }
 }
-@media(max-width:400px){
+
+@media(max-width:450px){
     .search{
         scale: 1.4;
-        margin-left: 36%;
+        padding-left: 20%;
         padding-top: 0;
-        margin-right: 28px;
+        padding-right: 0;
     }
     .gamburger{
         scale:1.4;
-        right: -126px;
-        top: -25px;
+        right: -48px;
+        top: -8px;
+
     }
     .input-search{
         text-align: left;
@@ -512,7 +523,7 @@ section{
         padding-top: 2px;
     }
     .social{
-        margin-right: 20%;
+        padding-right: 20%;
     }
     section{
         margin-bottom: 0;
@@ -528,7 +539,8 @@ section{
         display: block;
     }
     .footer-menue{
-        display: none;
+        flex-direction: column;
+        row-gap: 46px;
     }
     .subscribe-form > form,
     .pp-column,
@@ -539,6 +551,11 @@ section{
         margin-top: 20px;
     }
     .footer-subscribe{
-        width: 70%;
+        padding: 0px;
+        width: 80%;
+    }
+    .footer-arrow{
+        width: 16px;
+        padding: 0;
     }
 }
