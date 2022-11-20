@@ -154,9 +154,6 @@ header{
     .start-screen{
         width: 55%;
         margin: 5vw 0 8vw 3%;
-        // @media screen and (max-width: 1550px){
-
-        // }
         h1{
             color: white;
             font-weight: 800;
@@ -190,9 +187,6 @@ header{
         padding: 4rem 18.7rem 4.9rem;
         margin: 0 auto;
         text-align: center;
-        @media screen and (max-width: 1550px){
-            padding: 0;
-        }
         h2{
             @include title-black;
             margin-bottom: 36px;
@@ -231,17 +225,11 @@ header{
     text-align: center;
     .catalog-wrapper{
         padding: 3.5rem 0 8vh;
-        @media screen and (max-width: 1550px){
-           padding: 0;
-        }
         h2{
             @include title-white;
         }
         .catalog-filter{
             margin: 4.5rem 0 4.9rem;
-            @media screen and (max-width: 1550px){
-                margin: 1rem 0 1rem; 
-            }
             .catalog-filter-list{
                 display: flex;
                 justify-content: center;
@@ -284,13 +272,11 @@ header{
         border-radius: 30px;
         background-color: $price-black;
         padding: $price-padding;
-        width: 30%;
-        @media screen and (max-width: 1550px){
-            padding: 0;
-         }
+        width: 25%;
          @media screen and (max-width: 1000px){
             padding: 1.7rem 2.5rem 1rem 2.5rem;
             margin-bottom: 20px;
+            width: 30%;
          }
          @media screen and (max-width: 600px){
             width: 60%;
@@ -362,15 +348,9 @@ header{
 .gallery{
     @extend .catalog;
     padding: 4.9rem 0 5.4rem;
-    @media screen and (max-width: 1550px){
-        padding: 0;
-    }
     h2{
         @include title-white;
         margin-bottom: 3.3vw;
-        @media screen and (max-width: 1550px){
-            margin-bottom: 0.5vw;
-        }
     }
 }
 .images-container{
