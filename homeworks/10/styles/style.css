@@ -24,8 +24,7 @@ html {
 
 .dropdown-toggle::after {
     display: inline-block;
-    margin-left: 0.255em;
-    vertical-align: 0.255em;
+    margin-left: 1rem;
     content: url(../img/Vector5.svg);
     border: none;
 }
