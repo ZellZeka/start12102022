@@ -314,7 +314,7 @@ h6{
     line-height: 140%;
 }
 .article-body{
-    padding-right: 7.8rem;
+    padding-right: 1rem;
 }
 .h1-articolo{
     color: #3D3D3C;
@@ -343,9 +343,6 @@ h6{
     font-weight: 400;
     padding-top: 4.3rem;
 }
-.aside-card{
-    max-width: 300px;
-}
 .aside-card-text{
     font-weight: 500;
     font-size: 13px;
@@ -358,12 +355,18 @@ h6{
     }
 }
 @media (max-width:575px) {
+    .sponsor-row{
+        max-width: 415px;
+    }
     .sponsor-row::before{
         display: none;
     }.sponsor-row::after{
         display: none;
-    }.card-container{
-        max-width: 150px;
+    }
+}
+@media (max-width:992px) {
+    .sponsor-row{
+        max-width: 415px;
     }
 }
 @media (min-width:350px) {
@@ -373,5 +376,10 @@ h6{
     .newsletter-offer-container,
     .newsletter-form-container{
         padding: 5rem 6.6rem 0 5rem;
+    }
+}
+@media (min-width:768px) {
+    .article-body{
+        padding-right: 7.8rem;
     }
 }
